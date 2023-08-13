@@ -89,7 +89,7 @@ main{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 2em;
+    gap: 1em;
 }
 h2{
     grid-column: 1;
@@ -99,7 +99,7 @@ h2{
 }
 p{
     grid-column: 1;
-    
+    font-size: 16px;
     max-width: 65ch;
     /*margin: 0 auto;*/
     /*padding: 16px;*/
